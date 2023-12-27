@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; 
+    color: #333;
+}
+
+header {
+    background-color: #e3dcd7; 
+    color: #6d4c41;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+header img{
+    width: 70px;
+}
+
+header p {
+    font-style: italic;
+    color: #6d4c41;
+}
+
+header, div{
+    align-items: center;
+    text-align: center;
+    margin: auto auto;
+}
+
+nav {
+    background-color: #e3dcd7;
+    border-bottom: 2px solid #e3dcd7; 
+    justify-content: center;
+    display: flex;
+    background-color: #f7f7f7; 
+    padding: 10px;
+    padding-left: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6d4c41;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section.categories {
+    margin-bottom: 30px;
+}
+
+.category {
+    background-color: #fff; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(150, 150, 150, 0.1); 
+}
+
+.category img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.category h3 {
+    margin-top: 10px;
+}
+
+.category p {
+    margin-top: 5px;
+}
+
+.category a {
+    display: inline-block;
+    background-color: #e3dcd7;
+    color: #6d4c41;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.category a:hover {
+    background-color: #ffcc80; 
+}
+
+footer {
+    background-color: #e3dcd7;
+    padding: 10px;
+    text-align: center;
+    color: #6d4c41;
+}
+
+img {
+    height: 100%;
+}
+
+.active {
+    border-radius: 5px;
+    padding: 8.5px;
+    background-color: #f6e6d2; 
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

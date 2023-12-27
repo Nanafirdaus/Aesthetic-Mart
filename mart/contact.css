@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:beige; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: burlywood; 
+    color: #6d4c41;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+header img{
+    width: 50px;
+}
+
+header h1{
+    align-items: center;
+    text-align: center;
+    margin: auto auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.contact-form,
+.company-contact {
+    width: 45%;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(233, 214, 0, 0.1);
+    margin: 10px;
+}
+
+h2 {
+    color: #6d4c41;
+    font-size: 1.5em;
+}
+
+h2 span {
+    color: #d2b48c; 
+}
+
+label {
+    margin-top: 10px;
+    color: #6d4c41;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d2b48c; 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(215, 198, 157); 
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+.company-logo {
+    width: 100%;
+    max-width: 170px;
+    margin: 20px auto;
+    display: block;
+}
+
+footer {
+    
+    border-top: 2px solid #6d4c41; 
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

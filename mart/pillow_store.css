@@ -1,0 +1,73 @@
+/* Add your general styling here */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: burlywood;
+    color: #6d4c41;
+    text-align: center;
+    padding: 20px;
+}
+
+.pillows {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.pillow {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(233, 214, 0, 0.1);
+    text-align: center;
+}
+
+.pillow img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.pillow h3 {
+    margin-top: 10px;
+}
+
+.pillow p {
+    margin-top: 5px;
+}
+
+.pillow span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #f00;
+}
+
+button {
+    background-color: rgb(215, 198, 157);
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
