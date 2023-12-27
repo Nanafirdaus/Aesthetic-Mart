@@ -38,15 +38,15 @@ body {
     border-radius: 5px;
 }
 
-.login-form button {
+button {
     background-color: #b98c72; 
     color: #fff;
-    padding: 10px 20px; 
+    padding: 10px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    width: 100%; 
+    width: 200px; 
 }
 
 .login-form button:hover {
