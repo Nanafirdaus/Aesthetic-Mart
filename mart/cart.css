@@ -11,6 +11,45 @@ header {
     color: #6d4c41;
     text-align: center;
     padding: 20px;
+    display: flex;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+header div {
+    align-items: center;
+    text-align: center;
+    margin: auto auto;
+}
+
+nav {
+    background-color: burlywood; 
+    border-bottom: 2px solid burlywood;
+    justify-content: center;
+    display: flex;
+    background-color: #f7f7f7; 
+    padding: 10px;
+    padding-left: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6d4c41;
+    font-weight: bold;
 }
 
 main {

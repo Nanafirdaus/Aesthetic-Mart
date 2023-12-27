@@ -24,6 +24,33 @@ header h1{
     margin: auto auto;
 }
 
+nav {
+    background-color: burlywood; 
+    border-bottom: 2px solid burlywood;
+    justify-content: center;
+    display: flex;
+    background-color: #f7f7f7; 
+    padding: 15px;
+    padding-left: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6d4c41;
+    font-weight: bold;
+}
+
 main {
     display: flex;
     justify-content: space-around;
@@ -67,7 +94,7 @@ textarea {
 }
 
 button {
-    background-color: rgb(215, 198, 157); 
+    background-color: burlywood;
     color: #333;
     padding: 10px;
     border: none;
@@ -78,7 +105,7 @@ button {
 }
 
 button:hover {
-    background-color: coral;
+    background-color: #b98c72;
 }
 
 .company-logo {
@@ -98,4 +125,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.list1{
+    color: #6d4c41;
+    border-radius: 5px;
+    padding: 7.5px;
+    background-color: burlywood;
+}
+
+.active{
+    color: #6d4c41;
+    background-color: #b98c72;
 }

@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #e3dcd7; 
+    background-color: burlywood;
     color: #6d4c41;
     text-align: center;
     padding: 20px;
@@ -30,8 +30,8 @@ header, div{
 }
 
 nav {
-    background-color: #e3dcd7;
-    border-bottom: 2px solid #e3dcd7; 
+    background-color: #d2b48c; 
+    border-bottom: 2px solid #d2b48c;
     justify-content: center;
     display: flex;
     background-color: #f7f7f7; 
@@ -65,16 +65,16 @@ section.categories {
 }
 
 .category {
-    background-color: #fff; 
+    background-color: cornsilk;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(150, 150, 150, 0.1); 
+    box-shadow: 0 0 10px rgba(233, 214, 0, 0.1);
 }
 
 .category img {
     width: 100%;
-    max-height: 400px;
+    max-height: 300px;
     object-fit: cover;
     border-radius: 8px;
     margin-right: 20px;
@@ -90,7 +90,7 @@ section.categories {
 
 .category a {
     display: inline-block;
-    background-color: #e3dcd7;
+    background-color: #d2b48c;
     color: #6d4c41;
     padding: 8px 15px;
     text-decoration: none;
@@ -100,11 +100,11 @@ section.categories {
 }
 
 .category a:hover {
-    background-color: #ffcc80; 
+    background-color: #b98c72; 
 }
 
 footer {
-    background-color: #e3dcd7;
+    background-color: #d2b48c; 
     padding: 10px;
     text-align: center;
     color: #6d4c41;
@@ -117,8 +117,9 @@ img {
 .active {
     border-radius: 5px;
     padding: 8.5px;
-    background-color: #f6e6d2; 
+    background-color: burlywood; 
 }
+
 .box{
     display: flex;
     justify-content: center;
@@ -134,4 +135,11 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+.cart-button{
+    border: none;
+    border-radius: 5px;
+    padding: 7.5px;
+    background-color: burlywood; 
 }

@@ -2,12 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7; 
+    background-color: #f7f7f7;
     color: #333;
 }
 
 header {
-    background-color: #e3dcd7; 
+    background-color: burlywood;
     color: #6d4c41;
     text-align: center;
     padding: 20px;
@@ -15,23 +15,23 @@ header {
 }
 
 header p {
-    
     font-style: italic;
     color: #6d4c41;
 }
 
-header img{
+header img {
     width: 70px;
 }
-header div{
+
+header div {
     align-items: center;
     text-align: center;
     margin: auto auto;
 }
 
 nav {
-    background-color: #f4eade;
-    border-bottom: 2px solid #e3dcd7; 
+    background-color: burlywood; 
+    border-bottom: 2px solid burlywood;
     justify-content: center;
     display: flex;
     background-color: #f7f7f7; 
@@ -65,7 +65,7 @@ section {
 }
 
 .product {
-    background-color: #ead2ac; 
+    background-color: burlywood;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -95,7 +95,7 @@ section {
 }
 
 button {
-    background-color: #a09b97; 
+    background-color: burlywood; 
     color: #6d4c41;
     padding: 10px;
     border: none;
@@ -116,11 +116,11 @@ footer {
 }
 
 .product:nth-child(odd) {
-    background-color: #e3dcd7; 
+    background-color: blanchedalmond; 
 }
 
 .product:nth-child(even) {
-    background-color: #f3ede8; 
+    background-color: cornsilk; 
 }
 
 .box {
@@ -149,7 +149,7 @@ footer {
 .list1 {
     border-radius: 5px;
     padding: 8.5px;
-    background-color: #a09b97; 
+    background-color: burlywood;
 }
 
 img {
@@ -157,8 +157,3 @@ img {
     width: 20%;
 }
 
-.active {
-    border-radius: 5px;
-    padding: 8.5px;
-    background-color: #b98c72; 
-}
