@@ -21,16 +21,12 @@ header {
     justify-content: center;
 }
 
-header img {
-    width: 70px;
-}
-
 nav {
     background-color: #d2b48c;
     border-bottom: 2px solid #d2b48c;
     justify-content: center;
     display: flex;
-    background-color: #f7f7f7;
+    background-color: #d2b48c;
     padding: 10px;
     padding-left: 100px;
 }
@@ -84,7 +80,7 @@ section.landing-content {
 
 .feature {
     width: 30%;
-    background-color: beige;
+    background-color: whitesmoke;
     padding: 20px;
     border-radius: 15px;
     margin-bottom: 20px;
