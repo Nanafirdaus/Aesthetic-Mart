@@ -52,13 +52,14 @@ i {
 }
 
 input {
+    width: 400px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 button {
-    width: 200px;
+    width: 420px;
     background-color: #b98c72; 
     color: #fff;
     padding: 10px;
